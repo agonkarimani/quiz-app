@@ -57,5 +57,8 @@
     {
       "name": "Jerry Erbs"
     }
-  ]
+  ],
+  "dependencies": {
+    "storyboard": "^3.3.2"
+  }
 }
