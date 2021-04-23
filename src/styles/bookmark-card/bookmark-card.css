@@ -1,0 +1,72 @@
+.bookmark-card {
+  margin: 30px 30px;
+  max-width: 300px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  border: 1px solid navajowhite;
+  border-radius: 5px;
+  display: grid;
+  grid-column: auto;
+  justify-content: center;
+  position: relative;
+}
+
+.bookmark-card:hover {
+  box-shadow: 0 14px 22px 0 rgba(0, 0, 0, 0.2);
+}
+
+.bookmark-card__question {
+  margin: 2px;
+  padding: 5px;
+  justify-content: center;
+}
+
+.bookmark-card__button {
+  margin: 2px;
+  background-color: white;
+  padding: 5px;
+  justify-content: center;
+  border: 1px solid orange;
+}
+
+.bookmark-card__button:hover {
+  background-color: navajowhite;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+}
+
+.bookmark-card__answer {
+  margin: 2px;
+  padding: 5px;
+  justify-content: center;
+}
+
+.bookmark-card__tag-list {
+  margin: 10px 2px;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  list-style: none;
+}
+
+.bookmark-card__tag-list-item {
+  background-color: lightgrey;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.bookmark-card__bookmark {
+  position: absolute;
+  border: 10px solid orange;
+  top: -10px;
+  right: 10px;
+  border-bottom-color: transparent;
+}
+
+.bookmark-card__bookmark--selected {
+  position: absolute;
+  border: 10px solid midnightblue;
+  top: -10px;
+  right: 10px;
+  border-bottom-color: transparent;
+}

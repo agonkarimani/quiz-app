@@ -5,11 +5,12 @@
 }
 
 .footer__menu {
-  margin: 10px 2px;
+  margin: 10px;
   padding: 0;
 }
 
 .footer__menu-list {
+  margin-left: -35px;
   list-style: none;
   display: flex;
   flex-direction: row;
