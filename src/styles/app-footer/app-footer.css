@@ -1,0 +1,27 @@
+.footer {
+  background: var(--color-primary);
+  color: var(--color-white);
+  padding: 12px;
+}
+
+.footer__menu {
+  margin: 10px 2px;
+  padding: 0;
+}
+
+.footer__menu-list {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  font-size: small;
+}
+
+.footer__menu-list-item {
+  border: 1px solid mintcream;
+}
+
+.footer__menu-list-item:hover {
+  color: navajowhite;
+}

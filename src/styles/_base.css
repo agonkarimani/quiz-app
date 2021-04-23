@@ -3,6 +3,8 @@
 }
 
 body {
+  display: grid;
+  grid-template-rows: 48px 100vh 48px;
   background-color: var(--color-white);
   color: var(--color-black);
   font-family: sans-serif;
@@ -21,4 +23,8 @@ h3 {
 input,
 button {
   font-size: 1em;
+}
+
+main {
+  overflow-y: scroll;
 }
