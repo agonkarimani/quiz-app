@@ -9,7 +9,7 @@
   padding: 0;
 }
 
-.footer__menu-list {
+.footer__navigation {
   margin-left: -40px;
   list-style: none;
   display: flex;
@@ -19,20 +19,16 @@
   font-size: small;
 }
 
-.footer__menu-list-item {
+.footer__button-home {
   border: 1px solid mintcream;
 }
 
-.footer__menu-list-item:hover {
-  color: navajowhite;
+.footer__button-bookmarks {
+  border: 1px solid mintcream;
 }
-
-a {
-  text-decoration: none;
-  background: var(--color-primary);
-  color: var(--color-white);
+.footer__button-create {
+  border: 1px solid mintcream;
 }
-
-a:hover {
-  color: navajowhite;
+.footer__button-settings {
+  border: 1px solid mintcream;
 }

@@ -1,9 +1,9 @@
 console.log('clear')
 
-const buttonHome = document.querySelector('.button-home')
-const buttonBookmarks = document.querySelector('.button-bookmarks')
-const buttonCreate = document.querySelector('.button-creator')
-const buttonSettings = document.querySelector('.button-settings')
+const buttonHome = document.querySelector('.footer__button-home')
+const buttonBookmarks = document.querySelector('.footer__button-bookmarks')
+const buttonCreate = document.querySelector('.footer_button-creator')
+const buttonSettings = document.querySelector('.footer_button-settings')
 
 const homePage = document.querySelector('.page-home')
 const bookmarksPage = document.querySelector('.page-bookmarks')
