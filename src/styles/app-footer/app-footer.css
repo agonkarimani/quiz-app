@@ -26,3 +26,13 @@
 .footer__menu-list-item:hover {
   color: navajowhite;
 }
+
+a {
+  text-decoration: none;
+  background: var(--color-primary);
+  color: var(--color-white);
+}
+
+a:hover {
+  color: navajowhite;
+}
