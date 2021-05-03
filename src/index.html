@@ -12,7 +12,7 @@
     <header class="app-header">
       <h1 class="app-header__heading">Quiz App</h1>
     </header>
-    <main>
+    <main data-page="home" class="page-home">
       <section class="card">
         <h2 class="card__question">Question</h2>
         <button class="card__button">Show answer</button>
@@ -35,17 +35,20 @@
         </ul>
         <div role="button" class="card__bookmark--selected"></div>
       </section>
-      <main class="page-home">Home</main>
-      <main class="page-bookmarks hidden">Bookmarks</main>
-      <main class="page-create hidden">Create</main>
-      <main class="page-settings hidden">Settings</main>
     </main>
+    <main data-page="bookmarks" class="page-bookmarks hidden">Bookmarks</main>
+    <main data-page="create" class="page-create hidden">Create</main>
+    <main data-page="settings" class="page-settings hidden">Settings</main>
     <footer class="footer__page">
       <section class="footer__navigation">
-        <button class="footer__button-home active">Quiz</button>
-        <button class="footer__button-bookmarks">Bookmark</button>
-        <button class="footer__button-create">Create</button>
-        <button class="footer__button-settings">Settings</button>
+        <button data-nav="home" class="footer__button-home active">Quiz</button>
+        <button data-nav="bookmarks" class="footer__button-bookmarks">
+          Bookmark
+        </button>
+        <button data-nav="create" class="footer__button-create">Create</button>
+        <button data-nav="settings" class="footer__button-settings">
+          Settings
+        </button>
       </section>
     </footer>
   </body>

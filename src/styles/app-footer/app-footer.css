@@ -1,22 +1,14 @@
-.footer {
+.footer__page {
   background: var(--color-primary);
   color: var(--color-white);
   padding: 12px;
 }
 
-.footer__menu {
-  margin: 10px 2px;
-  padding: 0;
-}
-
 .footer__navigation {
-  margin-left: -40px;
-  list-style: none;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-evenly;
-  font-size: small;
 }
 
 .footer__button-home {
@@ -26,9 +18,21 @@
 .footer__button-bookmarks {
   border: 1px solid mintcream;
 }
+
 .footer__button-create {
   border: 1px solid mintcream;
 }
+
 .footer__button-settings {
   border: 1px solid mintcream;
+}
+
+@media (max-width: 600px) {
+  .footer__navigation {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    font-size: small;
+  }
 }
